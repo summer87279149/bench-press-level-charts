@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="392d09e0-054d-4097-9583-d42d9fc7e9c7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/bin/www" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/public/stylesheets/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/routes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/routes/users.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/error.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/index.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/views/layout.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/App/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/App/index.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/App/index.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/CountTimer/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/CountTimer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/Counter/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/SimpleForm/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/SimpleForm/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/containers/AppContainer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/containers/CounterContainer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/containers/CounterContainer/index.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/containers/HomeContainer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/containers/NoMatchContainer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/containers/SimpleFormContainer/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/containers/SimpleFormContainer/simpleFormContainer.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routers/index.js" afterPath="$PROJECT_DIR$/src/routers/index.js" />
-    </list>
+    <list default="true" id="392d09e0-054d-4097-9583-d42d9fc7e9c7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -169,8 +142,8 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
+    <option name="x" value="98" />
+    <option name="y" value="884" />
     <option name="width" value="1822" />
     <option name="height" value="941" />
   </component>
@@ -355,26 +328,25 @@
       <option name="presentableId" value="Default" />
       <updated>1505533288471</updated>
       <workItem from="1505533290583" duration="13176000" />
-      <workItem from="1505552729249" duration="5000" />
+      <workItem from="1505552729249" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13181000" />
+    <option name="totallyTimeSpent" value="13194000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1822" height="941" extended-state="0" />
-    <editor active="true" />
+    <frame x="98" y="884" width="1822" height="941" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24986118" sideWeight="0.5051095" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986118" sideWeight="0.5114638" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23049645" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986118" sideWeight="0.4948905" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986118" sideWeight="0.48853615" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
