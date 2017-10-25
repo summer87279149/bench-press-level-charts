@@ -1,57 +1,29 @@
 import React from 'react'
-import { connect } from 'react-redux'
+import {connect} from 'react-redux'
 import IECharts from 'react-echarts-v3';
-import  "./index.less"
+import "./index.less"
+
 var ReactEcharts = require('echarts-for-react');
 const onEvents = {
-  'click': function(params) {
+  'click': function (params) {
     // the 'this' variable can get echarts instance
-    console.log("click",params);
+    console.log("click", params);
   }
 };
 var data = [
-  ["103","120"," 136"],
-  ["110","130"," 150"],
-  ["120","140"," 160"],
-  ["134","157"," 181"],
-  ["150","171"," 196"],
-  ["164","185"," 211"]
-
+  ["103", "120", " 136"],
+  ["110", "130", " 150"],
+  ["120", "140", " 160"],
+  ["134", "157", " 181"],
+  ["150", "171", " 196"],
+  ["164", "185", " 211"]
 ]
 const option = {
-  title: { text: '卧推等级表',subtext: ""},
+  title: {text: '卧推等级表', subtext: ""},
   //设置折线的彩色
-  visualMap: {
-    top: 10,
-    right: 10,
-    pieces: [ {
-      gt: 100,
-      lte: 120,
-      color: '#096'
-    }, {
-      gt: 120,
-      lte: 140,
-      color: '#ffde33'
-    }, {
-      gt: 140,
-      lte: 160,
-      color: '#ff9933'
-    }, {
-      gt: 160,
-      lte: 180,
-      color: '#cc0033'
-    }, {
-      gt: 180,
-      lte: 200,
-      color: '#660099'
-    }],
-    outOfRange: {
-      color: '#999'
-    }
-  },
   //nano 弹出提示框
   tooltip: {
-    trigger:"axis",
+    trigger: "axis",
     position: function (pt) {
       return [pt[0], 130];
     },
@@ -70,7 +42,7 @@ const option = {
   },
   //单独选择某个折线查看
   legend: {
-    data:['入门','进阶']
+    data: ['入门', '进阶']
   },
   toolbox: {
     left: 'center',
@@ -79,106 +51,109 @@ const option = {
   xAxis: {
     type: 'category',
     boundaryGap: true,//边缘留白
-    name:"体重(斤)",
-    nameLocation:"middle",
+    name: "体重(斤)",
+    nameLocation: "middle",
     data: data.map(function (item) {
       return item[0];
     })
   },
   yAxis: {
-    scale:true,//不从0开始
+    scale: true,//不从0开始
     type: 'value',
-    name:"杠铃重(斤)",
-    nameLocation:"middle",
-    nameGap:-15,
+    name: "杠铃重(斤)",
+    nameLocation: "middle",
+    nameGap: -15,
     splitLine: {
       show: false
     },
-    splitNumber:10,//y轴分段个数
-    maxInterval:50,
-    axisTick:{
+    splitNumber: 10,//y轴分段个数
+    maxInterval: 50,
+    axisTick: {
       length: 1,
     }
 
   },
 //数据缩放查看
-  dataZoom: [{
-  }, {
+  dataZoom: [{}, {
     type: 'inside'
   }],
-  series: [{
-    name: '入门',
-    type: 'line',
-    smooth: true,
-    data: data.map(function (item) {
-      return item[1];
-    }),
-    markLine: {
-      silent: false,
-      data: [{
-        yAxis: 140
-      }, {
-        yAxis: 160
-      }, {
-        yAxis: 180
-      },{
-        yAxis: 200
-      },{
-        yAxis: 220
-      }]
-    }
-  },{
-    name: '进阶',
-    type: 'line',
-    smooth: true,
-    data: data.map(function (item) {
-      return item[2];
-    }),
-    markLine: {
-      silent: false,
-      data: [{
-        yAxis: 140
-      }, {
-        yAxis: 160
-      }, {
-        yAxis: 180
-      },{
-        yAxis: 200
-      },{
-        yAxis: 220
-      }]
-    }
-  }]
+  series: [
+    {
+      name: '入门',
+      type: 'line',
+      smooth: true,
+      data: data.map(function (item) {
+        return item[1];
+      }),
+      markLine: {
+        silent: false,
+        data: [
+          {
+            yAxis: 140
+          }, {
+            yAxis: 160
+          }, {
+            yAxis: 180
+          }, {
+            yAxis: 200
+          }, {
+            yAxis: 220
+          }]
+      }
+    },
+    {
+      name: '进阶',
+      type: 'line',
+      smooth: true,
+      data: data.map(function (item) {
+        return item[2];
+      }),
+      markLine: {
+        silent: false,
+        data: [{
+          yAxis: 140
+        }, {
+          yAxis: 160
+        }, {
+          yAxis: 180
+        }, {
+          yAxis: 200
+        }, {
+          yAxis: 220
+        }]
+      }
+    }]
 };
+
 class counterContainer extends React.Component {
 
-  getOption(){
-
-  }
-  onChartReadyCallback(){
-
-  }
-  EventsDict(){
+  getOption() {
 
   }
 
-  render () {
+  onChartReadyCallback() {
+
+  }
+
+  EventsDict() {
+
+  }
+
+  render() {
     return (
       <div>
-        <IECharts option={option}  />
+        <IECharts option={option}/>
       </div>
     )
   }
 }
 
 const mapStateToProps = (state) => {
-  return {
-  }
+  return {}
 }
 
 const mapDispatchToProps = (dispatch) => {
-  return {
-  }
+  return {}
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(counterContainer)
